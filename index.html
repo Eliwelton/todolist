@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+       .list li{
+           display: inline;
+           margin-right: 5px;
+       }
+       
+       .list{
+           margin-bottom: 7px;
+       }
+       ul{
+           padding-inline-start: 0;
+       }
+      
+    </style>
+    <title>To do list</title>
+</head>
+<body>
+    <main>
+        <h1>To do list</h1>
+        <p>Create your to do list:</p>
+        <form id="formList">
+            <input type="text" id="item" name="item" value="" placeholder="add item" required>
+            <button id="btn" type="submit">Add</button>
+        </form>
+        
+    </main>
+    <ul id="list">
+        <div class="list">
+            <li>Buy Coffe</li><button>Excluir</button>
+        </div>
+        <div class="list">
+            <li>Buy Sugar</li><button>Excluir</button>
+        </div>
+    </ul>
+    <script src="javascript.js"></script>
+</body>
+</html>
